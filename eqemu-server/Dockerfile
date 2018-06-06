@@ -46,7 +46,7 @@ RUN \
 # Downlaod loginserver dependencies
 RUN \
   cd /root/eqemu && \
-  wget -q https://eqemu.github.io/downloads/ubuntu_LoginServerCrypto_x64.zip && \
+  wget -q https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/projecteqemu/ubuntu_LoginServerCrypto_x64.zip && \
   unzip -d dependencies ubuntu_LoginServerCrypto_*.zip && \
   rm ubuntu_LoginServerCrypto_*.zip
 
