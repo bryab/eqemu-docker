@@ -13,7 +13,9 @@ RUN apt-get update && apt-get -y install \
   git \
   libmysqlclient-dev \
   libboost-dev \
-  liblua5.1-dev && \
+  liblua5.1-dev \
+  uuid-dev \
+  libssl-dev && \
 rm -rf /var/lib/apt/lists/*
 
 # Install eqemu server essentials
